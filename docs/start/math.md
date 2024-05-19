@@ -1,56 +1,55 @@
 # [public] math
 
-## Prob
+## Distributions
 
+### Binomial
 
-## distribution
+coin toss
 
-1. Binomial: coin toss
-
-$$
-E(X)=np
+$$ E(X)=np
 $$
 
-$$
-Var(X)=np(1-p)
-$$
+$$Var(X)=np(1-p)$$
 
-2. Normal
-
-3. Exp
-
-$$
-X \sim exp(1)
-$$
-
-$$
-P[X \ge x]=e^{-x}; \lambda=1
-$$
-
-4. Poisson
-
-## arithmetic
+### Normal
+$$ E = \mu $$
+$$ Var = \sigma^2 $$
+$$ E(e^x)=\int e^x f(x) dx = e^{\mu+\sigma^2/2}$$
+### Log Normal
 
 
+### Exponential
 
+$X \sim exp(1)$, 
+$P[X \ge x]=e^{-x}; \lambda=1$
 
+### Poisson
 
-The homomorphism $f$ is injective if and only if its kernel is only the
-singleton set $e_G$, because otherwise $\exists a,b\in G$ with $a\neq b$ such
-that $f(a)=f(b)$.
+### Multivariate
 
-Bayes:
+n-d vector of random variables $\mathbf{X}$
 
-$$
-P(A|B)=P(A and B)/P(B)
-$$
+$\mathbf{X} = (X_1...X_n)$
+
+mean $E[\mathbf{X}]$
+
+Covariance $\Sigma=Cov(\vec{X})$
+$(i,j)$ is covariance of $X_i$ and ${X_j}$
+
+### Martingales
+
+$X_n$ Is a martingales if
+- $E^P[|\vec{X_n}|]<\infty$
+- $E^P[|\vec{X_{n+m}}|F_n]=X_n$
+
+## Bayes:
+
+$P(A|B)=P(A \cap B)/P(B)$
+
 
 ## linear algebra
 
 norm, l1, l2
 
-## prob
-
-Martingales, Brownian Motion
 
 ## formulate hedging and arbitrage
