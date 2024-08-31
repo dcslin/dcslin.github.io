@@ -1,5 +1,8 @@
 from nicegui import ui
+from page import Example
 
-ui.label('Hello NiceGUI!')
+ui.link('example1', '/example1')
+
+example = Example()
 
 ui.run()
