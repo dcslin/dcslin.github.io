@@ -16,4 +16,14 @@ run kubectl from minikube
 minikube start
 
 minikube kubectl -- get pods -A
+
+alias kubectl="minikube kubectl --"
+
 ```
+
+run dashboard
+```bash
+minikube dashboard
+```
+
+
