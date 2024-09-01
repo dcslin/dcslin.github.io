@@ -22,13 +22,13 @@ alias kubectl="minikube kubectl --"
 ```
 
 run dashboard
+
 ```bash
 minikube dashboard
 ```
 
-
-
 debian command:
+
 ```bash
 sudo systemctl reboot
 sudo systemctl shutdown

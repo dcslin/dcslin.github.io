@@ -15,5 +15,4 @@ func main() {
 
 	print("ok")
 	fmt.Println("ok")
-
 }
