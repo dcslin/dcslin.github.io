@@ -1,0 +1,12 @@
+unique features:
+- ownership, borrowing, memory management, no gc, lifttime,
+- pattern matching
+- trait system
+- no None, Option type
+- error handling, result type, 
+- macros, metaprogramming, 
+- const generics
+- unsafe code
+- zero cost abstration
+- enums
+- move senmatics

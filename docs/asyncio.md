@@ -1,4 +1,4 @@
-async func could be await in jupyter lab directly:
+async func could be await-ed in jupyter lab directly:
 
 ```py
 import asyncio

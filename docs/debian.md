@@ -1,5 +1,4 @@
-
-debian command:
+turn off
 
 ```bash
 sudo systemctl reboot
