@@ -1,7 +1,3 @@
 site_name: Coding
 theme:
   name: material
-# nav:
-#   - Home: index.md
-#   - Minikube: minikube.md
-#   - Asyncio: asyncio.md
