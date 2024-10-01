@@ -10,19 +10,23 @@ sudo usermod -aG docker $USER && newgrp docker
 
 install <https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fdebian+package>
 
-run kubectl from minikube
+start minikube
 
 ```bash
 minikube start
+```
 
+run kubectl from minikube
+
+
+```bash
 minikube kubectl -- get pods -A
-
+```
+```bash
 alias kubectl="minikube kubectl --"
-
 ```
 
 dashboard
-ß
 ```bash
 minikube dashboard
 ```
