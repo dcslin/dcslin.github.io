@@ -17,3 +17,5 @@ async def attach(uri, n=5):
 data = await attach(endpoint)
 len(data)
 ```
+
+alternative concurrent.Futures
