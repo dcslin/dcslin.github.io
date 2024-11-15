@@ -1,4 +1,4 @@
-turn off
+systemctl manages services
 
 ```bash
 sudo systemctl reboot

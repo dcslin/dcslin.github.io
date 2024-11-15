@@ -1,11 +1,5 @@
 # Coding
 
-Web UI in Python: fastapi + vuejs <https://nicegui.io/documentation>
-
-Reactive Python <https://github.com/ReactiveX/RxPY>
-
-Reactive Go <https://github.com/ReactiveX/RxGo>
-
 cloudflare <https://www.cloudflare.com/zh-cn/>
 
 ## Coding AI
