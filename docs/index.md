@@ -53,9 +53,9 @@ $$
 
 ## PCA
 
-## KL divergent
-
 ---
+
+## KL divergent
 
 clique团，
 贝叶斯网络，马尔可夫链，
